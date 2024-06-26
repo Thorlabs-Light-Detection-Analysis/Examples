@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM103 Peak Search Sample", "PM103 Peak Search Sample\PM103 Peak Search Sample.csproj", "{787300FF-2587-499E-A8FD-AA94368E799B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM103 Scope Sample HW Trigger", "PM103 Scope Sample HW Trigger\PM103 Scope Sample HW Trigger.csproj", "{83611870-72DC-4FD3-B2F6-D70733F643DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM103 Scope Sample SW Trigger", "PM103 Scope Sample SW Trigger\PM103 Scope Sample SW Trigger.csproj", "{C105D5E3-6A93-4803-90A0-EE495D681500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM103 100kS per second Sample", "PM103 100kS per second Sample\PM103 100kS per second Sample.csproj", "{D13EC8B2-803D-43C8-9492-9573A31DEB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM101R Serial Communication 1", "PM101R Serial Communication 1\PM101R Serial Communication 1.csproj", "{3A602EFE-26AD-436E-8F06-13B2FFC1CD3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM101R Serial Communication 2", "PM101R Serial Communication 2\PM101R Serial Communication 2.csproj", "{3A22269F-22CA-45A9-917E-B298F542174C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thorlabs.TLPM.Interop.Sample", "Thorlabs.TLPMX.Interop.Sample\Thorlabs.TLPM.Interop.Sample.csproj", "{4E5F0915-0F87-48C4-B543-14C7CC005789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM5020 I2C Control", "PM5020 I2C Control\PM5020 I2C Control.csproj", "{46411FEF-EC9A-4A0E-9AA9-C3C66D886E51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		TeamCity|Any CPU = TeamCity|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{787300FF-2587-499E-A8FD-AA94368E799B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787300FF-2587-499E-A8FD-AA94368E799B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787300FF-2587-499E-A8FD-AA94368E799B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787300FF-2587-499E-A8FD-AA94368E799B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787300FF-2587-499E-A8FD-AA94368E799B}.TeamCity|Any CPU.ActiveCfg = Release|Any CPU
+		{787300FF-2587-499E-A8FD-AA94368E799B}.TeamCity|Any CPU.Build.0 = Release|Any CPU
+		{83611870-72DC-4FD3-B2F6-D70733F643DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83611870-72DC-4FD3-B2F6-D70733F643DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83611870-72DC-4FD3-B2F6-D70733F643DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83611870-72DC-4FD3-B2F6-D70733F643DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83611870-72DC-4FD3-B2F6-D70733F643DF}.TeamCity|Any CPU.ActiveCfg = Release|Any CPU
+		{83611870-72DC-4FD3-B2F6-D70733F643DF}.TeamCity|Any CPU.Build.0 = Release|Any CPU
+		{C105D5E3-6A93-4803-90A0-EE495D681500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C105D5E3-6A93-4803-90A0-EE495D681500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C105D5E3-6A93-4803-90A0-EE495D681500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C105D5E3-6A93-4803-90A0-EE495D681500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C105D5E3-6A93-4803-90A0-EE495D681500}.TeamCity|Any CPU.ActiveCfg = Release|Any CPU
+		{C105D5E3-6A93-4803-90A0-EE495D681500}.TeamCity|Any CPU.Build.0 = Release|Any CPU
+		{D13EC8B2-803D-43C8-9492-9573A31DEB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13EC8B2-803D-43C8-9492-9573A31DEB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13EC8B2-803D-43C8-9492-9573A31DEB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13EC8B2-803D-43C8-9492-9573A31DEB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D13EC8B2-803D-43C8-9492-9573A31DEB41}.TeamCity|Any CPU.ActiveCfg = Release|Any CPU
+		{D13EC8B2-803D-43C8-9492-9573A31DEB41}.TeamCity|Any CPU.Build.0 = Release|Any CPU
+		{3A602EFE-26AD-436E-8F06-13B2FFC1CD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A602EFE-26AD-436E-8F06-13B2FFC1CD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A602EFE-26AD-436E-8F06-13B2FFC1CD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A602EFE-26AD-436E-8F06-13B2FFC1CD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A602EFE-26AD-436E-8F06-13B2FFC1CD3E}.TeamCity|Any CPU.ActiveCfg = Release|Any CPU
+		{3A602EFE-26AD-436E-8F06-13B2FFC1CD3E}.TeamCity|Any CPU.Build.0 = Release|Any CPU
+		{3A22269F-22CA-45A9-917E-B298F542174C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A22269F-22CA-45A9-917E-B298F542174C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A22269F-22CA-45A9-917E-B298F542174C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A22269F-22CA-45A9-917E-B298F542174C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A22269F-22CA-45A9-917E-B298F542174C}.TeamCity|Any CPU.ActiveCfg = Release|Any CPU
+		{3A22269F-22CA-45A9-917E-B298F542174C}.TeamCity|Any CPU.Build.0 = Release|Any CPU
+		{4E5F0915-0F87-48C4-B543-14C7CC005789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5F0915-0F87-48C4-B543-14C7CC005789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5F0915-0F87-48C4-B543-14C7CC005789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5F0915-0F87-48C4-B543-14C7CC005789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5F0915-0F87-48C4-B543-14C7CC005789}.TeamCity|Any CPU.ActiveCfg = TeamCity|Any CPU
+		{4E5F0915-0F87-48C4-B543-14C7CC005789}.TeamCity|Any CPU.Build.0 = TeamCity|Any CPU
+		{46411FEF-EC9A-4A0E-9AA9-C3C66D886E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46411FEF-EC9A-4A0E-9AA9-C3C66D886E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46411FEF-EC9A-4A0E-9AA9-C3C66D886E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46411FEF-EC9A-4A0E-9AA9-C3C66D886E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46411FEF-EC9A-4A0E-9AA9-C3C66D886E51}.TeamCity|Any CPU.ActiveCfg = Debug|Any CPU
+		{46411FEF-EC9A-4A0E-9AA9-C3C66D886E51}.TeamCity|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6A34194-662E-4161-8A4A-83762852629E}
+	EndGlobalSection
+EndGlobal
