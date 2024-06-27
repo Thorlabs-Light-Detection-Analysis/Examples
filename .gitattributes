@@ -27,3 +27,7 @@
 *.DLL filter=lfs diff=lfs merge=lfs -text
 *.BMP filter=lfs diff=lfs merge=lfs -text
 *.bmp filter=lfs diff=lfs merge=lfs -text
+*.LLB filter=lfs diff=lfs merge=lfs -text
+*.llb filter=lfs diff=lfs merge=lfs -text
+*.MNU filter=lfs diff=lfs merge=lfs -text
+*.mnu filter=lfs diff=lfs merge=lfs -text
